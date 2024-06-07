@@ -162,6 +162,7 @@ h1,h2,h3 {
 
 /*Servicios*/
 
+
 .servicio{
     display: flex;
     flex-direction: column;
@@ -189,7 +190,7 @@ h1,h2,h3 {
 @media (min-width: 768px ) {
     .servicios{
         display: grid;
-        grid-template-columns: 33.3% 33.3% 33.3% 33.3%;
+        grid-template-columns: 33.3% 33.3% 33.3%;
     }
 }
 /*Contacto*/
