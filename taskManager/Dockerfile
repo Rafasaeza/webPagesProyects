@@ -6,4 +6,4 @@ RUN docker-php-ext-install mysqli && \
     # Enable Apache mod_rewrite
 RUN a2enmod rewrite
 
-COPY templates/ /var/www/html/
+COPY src/. /var/www/html/
