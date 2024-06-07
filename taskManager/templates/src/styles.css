@@ -1,0 +1,49 @@
+/* Utilities*/
+.button{
+    display: inl;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    margin: 1rem 1rem;
+    border: none;
+}
+.greenButton{
+    background-color: green;
+}
+.redButton{
+    background-color: red;
+    width: -moz-available;
+}
+input[type="text"]{
+    padding: 1rem;
+    border-radius: 2rem
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.note{
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    width: min-content;
+    padding:1rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+.addNote{
+    width: 20rem;
+}
+.editForm{
+    display:none;
+}
+.contenido-and-edit{
+    display: flex;
+}
