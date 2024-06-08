@@ -6,34 +6,11 @@ require "includes/header.php";
 
 <main class="contenedor sombra">
             <h2>Contact with me</h2>
-            <form class="formulario">
-                <fieldset>
-
-                    <div class="contenedor-campos">
-                        <div class="campo">
-                            <label>Name</label>
-                            <input type="text" placeholder="Name" name ="name" class="input-text">
-                        </div>
-
-                        <div class="campo">
-                            <label>Phone</label>
-                            <input type="tel" placeholder="Phone" name="phone" class="input-text">
-                        </div>
-
-                        <div class="campo">
-                            <label>Mail</label>
-                            <input  type="mail" placeholder="mail" name="email" class="input-text">
-                        </div>
-
-                        <div class="campo">
-                            <label>Message</label>
-                            <textarea class="input-text" name ="message"></textarea>
-                        </div>
-                    </div><!--contedor-campos-->
-
-                    <input type="submit" value="ENVIAR" class="boton w-sm-100">
-                </fieldset>
-            </form>
+            <div class="contact-icons">
+                <a href="https://github.com/Rafasaeza" target="_blank"><img alt="Github" src="images/github_3291695.png"></a>
+                <a href="https://www.linkedin.com/in/rafael-sáez-arana-b493201b9" target="_blank"><img alt="Linkedin" src="images/linkedin_3536569.png"></a>
+                <a><img alt="Email" src="images/email_3694289.png"></a>
+            </div>
     </main>
 <?php 
 require "includes/footer.php"
