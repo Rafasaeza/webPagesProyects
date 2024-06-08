@@ -9,13 +9,14 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
-    scroll-snap-type: y mandatory;
 }
 
 *, *:before, *:after{
     box-sizing: inherit;
 }
-
+.blue{
+    color: var(--secundario);
+}
 body {
     font-size: 16px;
     font-family: 'Krub', sans-serif;
@@ -31,7 +32,9 @@ h2{
 h3{
     font-size: 1.8rem;
 }
-
+a{
+    text-decoration: none;
+}
 h1,h2,h3 {
     text-align: center;
 }
@@ -114,12 +117,11 @@ h1,h2,h3 {
     padding: 1rem 0 1rem 0;
 }
 .navegacion-principal a:hover{
-    background-color: var(--primario);
-    color: var(--oscuro);
+    color: var(--primario);
 }
 
 .hero {
-    background-image: url(../images/hero.jpg);
+    background-image: url(../images/malaga.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
@@ -207,12 +209,13 @@ h1,h2,h3 {
     border: none;
 }
 .formulario legend{
-    text-align: center;
     font-weight: bold;
     font-size: 1.8rem;
     text-transform: uppercase;
     color: var(--primario);
     margin-bottom: 2rem;
+    text-align: center ;
+    width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -246,4 +249,22 @@ h1,h2,h3 {
     border-radius: .5rem;
     border:none;
     width: 100%;
+}
+
+/*footer*/
+footer{
+    background-color: var(--gris);
+    text-align: center;
+    margin-top: 2rem;
+    padding:1px;
+}
+
+/*AboutMe*/
+.aboutMe{
+    p{
+        font-size: 2rem;
+    } 
+    li{
+        font-size: 2rem;
+    }
 }
